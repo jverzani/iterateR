@@ -1,0 +1,21 @@
+Package: IterateR
+Type: Package
+Title: Creates a convenient form for iteration
+Depends:
+    methods,
+    plyr
+Version: 1.0
+Date: 2012-01-23
+Author: John Verzani
+Maintainer: John Verzani <jverzani@gmail.com>
+Description: Introduces a jQuery like syntax for iterating
+    over R objects
+License: GPL (>= 3)
+Collate:
+    'iterate.R'
+    'vector.R'
+    'list.R'
+    'dataframe.R'
+    'object.R'
+    'array.R'
+    's3-methods.R'
